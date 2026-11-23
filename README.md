@@ -46,7 +46,7 @@ The remaining folders (`pluto`, `natone-html`, `sidebar-01`, `sidebar-09`) are H
 ```bash
 cd backendlaravel
 composer install
-cp .env.example .env   # set your MySQL credentials
+# create a .env file with your MySQL credentials (standard Laravel settings)
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve      # http://127.0.0.1:8000
